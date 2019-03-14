@@ -24,7 +24,7 @@ const cockpit = (props) => {
 
     return (
         <div>
-            <h1>Hi, I am a react App</h1>
+            <h1>{props.title}</h1>
             <p className={classes.join(' ')}>This is really working</p>
             <button
                 /*onClick = {it might cause performance issues() => this.switchNameHandler("Max")}*/
