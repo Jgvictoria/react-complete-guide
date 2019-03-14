@@ -1,6 +1,7 @@
 import React from 'react';
 
 const cockpit = (props) => {
+    console.log('[Cockpit.js] render');
     const style = {
         backgroundColor: 'green',
         color: 'white',
